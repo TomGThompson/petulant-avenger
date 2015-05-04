@@ -1,3 +1,0 @@
-lorum
-
-**bold text**
