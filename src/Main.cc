@@ -11,6 +11,10 @@ int main(int argc, char* argv[])
 
     try {
         vector<string> inputArgs {IO::GetArgs(argc, argv)};
+		for (auto x = inputArgs.begin(); x != inputArgs.end(); ++x)
+		{
+			cout << *x << endl;
+		}
     }
     catch (exception& e) {
         cerr << e.what() << '\n';
