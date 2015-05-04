@@ -1,7 +1,6 @@
 cpp_flags = Split('''-std=c++1y 
                      -O0 
-                     -g 
-                     -fcolor-diagnostics''')
+                     -g''')
 
 build_env = Environment(CXXFLAGS = cpp_flags)   
 
