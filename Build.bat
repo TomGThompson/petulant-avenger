@@ -1,1 +1,1 @@
-python bin/scons/scons.py
+@python bin/scons/scons.py
