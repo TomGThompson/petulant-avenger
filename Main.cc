@@ -11,6 +11,7 @@ int main(int argc, char* argv[])
 
     try {
         vector<string> inputArgs {IO::GetArgs(argc, argv)};
+        cout << "hello";
     }
     catch (exception& e) {
         cerr << e.what() << '\n';
