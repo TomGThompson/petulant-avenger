@@ -1,5 +1,4 @@
 cpp_flags = Split('''-std=c++1y 
-                     -Wno-c++98-compat 
                      -O0 
                      -g 
                      -fcolor-diagnostics''')
