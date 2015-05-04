@@ -29,3 +29,9 @@
 
 # SCons artifacts
 .sconsign.dblite
+
+
+# Local Stuff
+_build/
+_out/
+*.pyc
